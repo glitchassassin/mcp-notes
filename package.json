@@ -1,0 +1,27 @@
+{
+  "name": "@covenant-foundry/mcp-notes",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "deploy": "wrangler deploy",
+    "dev": "wrangler dev",
+    "format": "eslint --fix",
+    "start": "wrangler dev",
+    "cf-typegen": "wrangler types"
+  },
+  "devDependencies": {
+    "@epic-web/config": "^1.19.0",
+    "@types/node": "^22.14.1",
+    "marked": "^15.0.7",
+    "typescript": "^5.5.2",
+    "workers-mcp": "^0.1.0-3",
+    "wrangler": "^4.12.1"
+  },
+  "dependencies": {
+    "@cloudflare/workers-oauth-provider": "^0.0.2",
+    "@modelcontextprotocol/sdk": "^1.7.0",
+    "agents": "^0.0.53",
+    "hono": "^4.7.4",
+    "zod": "^3.24.2"
+  }
+}

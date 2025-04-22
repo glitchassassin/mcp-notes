@@ -1,0 +1,4 @@
+{
+	"extends": ["@epic-web/config/typescript"],
+	"include": ["worker-configuration.d.ts", "src/**/*.ts"]
+}
